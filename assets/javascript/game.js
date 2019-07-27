@@ -57,14 +57,16 @@ function scoreChecker(){
     if (totalScore === targetScore){
         alert("You won!!")
         wins++
+        totalScore = 0;
         $('#wins').text(wins)
-        $('#your-score').text(0);
+        $('#your-score').text(totalScore);
         generateTargetScore(19, 120);
     }  if (totalScore > targetScore) {
         alert("You lost!")
         losses++
+        totalScore = 0;
         $('#losses').text(losses);
-        $('#your-score').text(0);
+        $('#your-score').text(totalScore);
         generateTargetScore(19, 120);
     } 
  }

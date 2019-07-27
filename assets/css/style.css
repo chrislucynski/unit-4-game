@@ -46,6 +46,12 @@ body {
     height: 100px;
     width: auto;
     padding: 5px;
+    transition: 0.5s;
+}
+
+.gem:hover {
+    height: 125px;
+    width: auto;
 }
 
 #gem-container {
@@ -84,7 +90,13 @@ body {
     font-size: 3em;
     margin-top: 25px;
     text-align: center;
+    transition: 0.5s;
 }
+
+#scoreboard:hover {
+    width: 600px;
+}
+
 #wins {
     color: green;
     font-weight: bolder;
