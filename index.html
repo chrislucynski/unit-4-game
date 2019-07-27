@@ -7,11 +7,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Josefin+Sans|Righteous&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div>
+        <h1 id="header">Collect the Crystals!</h1>
+    </div> 
+    <br>
+    <div id="intro">
+        <p>You will be given a random number at the start of the games.</p>
+        <p>Ther are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number generated, and you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <div class="flex-container">
+        <div id="target">
+            <p>Your target:</p>
+            <h1><span id="target-score">0</span></h1>
+        </div>
+        <div id="gem-container">
+            <img id="ruby" class="gem" src="./assets/images/Ruby.png" alt="Ruby">
+            <img id="sapphire" class="gem" src="./assets/images/Sapphire.png" alt="Sapphire">
+            <img id="topaz" class="gem" src="./assets/images/Topaz.png" alt="Topaz">
+            <img id="emerald" class="gem" src="./assets/images/Emerald.png" alt="Emerald">
+        </div>
+
+        <!-- total score needed -->
+        <div id="total-score">
+            <p>Your score:</p>
+            <h1><span id="your-score">0</span></h1>
+        </div>
+    </div>
+    <div id="scoreboard-container">
+        <div id="scoreboard">
+            <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+        </div>
+    </div>
 
     <script src="./assets/javascript/game.js"></script>
 </body>

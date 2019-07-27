@@ -1,0 +1,96 @@
+body {
+    background-color: #03256C;
+}
+#header {
+    font-size: 5em;
+    padding: 10px 0 10px 0;
+    background-color: #98C1D9;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    box-shadow: 3px 0px 22px 0px rgba(10,234,250,1);
+}
+
+#intro {
+    width: 75%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-left: 25px;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: white;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#target {
+    background-color: #0B4F6C;
+    color: white;
+    box-shadow: 3px 0px 22px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    margin-right: 25px;
+    text-align: center;
+}
+#target-score {
+    text-align: center;
+    font-size: 4em;
+}
+
+.gem {
+    height: 100px;
+    width: auto;
+    padding: 5px;
+}
+
+#gem-container {
+    box-shadow: 3px 0px 22px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    background-color: #fff;
+}
+
+#total-score {
+    background-color: #0B4F6C;
+    color: white;
+    box-shadow: 3px 0px 22px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    margin-left: 25px;
+    text-align: center;
+}
+
+#your-score {
+    text-align: center;
+    font-size: 4em;
+}
+
+#scoreboard-container {
+    display: flex;
+    justify-content: center;
+}
+
+#scoreboard {
+    width: 505px;
+    background-color: #35CE8D;
+    color: white;
+    box-shadow: 3px 0px 22px 0px rgba(0,0,0,0.75);
+    padding: 20px 0 20px 0;
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    margin-top: 25px;
+    text-align: center;
+}
+#wins {
+    color: green;
+    font-weight: bolder;
+}
+
+#losses {
+    color: red;
+    font-weight: bolder;
+}
